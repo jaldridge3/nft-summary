@@ -16,13 +16,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./Screenshot.png)
+![](./images/Screenshot.png)
 
 
 
 ### Links
 
-- Solution URL: [Solution](https://jaldridge3.github.io/FrontendMentor-Order-Summary/)
+- Solution URL: [Solution](https://jaldridge3.github.io/nft-summary/)
 
 ## My process
 
