@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-size: 0.9rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-shadow {
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    background-color: rgba(0, 8, 54, 0.025);
+    grid-auto-rows: 1fr 2rem;
+    display: block;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.card {
+    position: relative;
+    font-family: "outfit";
+    text-align: left;
+    grid-auto-rows: 1fr 2rem;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 320px;
+    max-height: 600px;
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 10px 20px hsla(237, 100%, 7%, 0.123)
+}
+
+.img-card {
+    position: relative;
+}
+
+.main-img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+  
+.icon-background {
+    background-color: hsla(178, 100%, 50%, 50%);
+    background-image: url(./images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+a.main-img-a:hover .icon-background {
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-size: 17px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.ticker {
+    font-size: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px 0px;
+    width: 100%;
+    justify-content: space-between; 
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    vertical-align: middle;
+}
+
+.etherium, .time, .creator {
+    margin: 1px;
+}
+
+.etherium-img, .time-img, .creator-img {
+    margin: 3px;
+}
+
+.etherium-inline {
+    display: inline-flex;
+}
+
+.etherium {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.time-inline {
+    display: inline-flex;
+    justify-content: right;
+}
+
+.time {
+    font-weight: 400;
+}
+
+.time, .creator {
+    color: hsl(215, 51%, 70%);
+}
+
+.etherium {
+    color: hsl(178, 100%, 50%);
+}
+
+.divider {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 10px;
+}
+
+.creator-line {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.creator-img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.creator {
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.creator-name {
+    margin-left: 4px;
+}
+
+footer {
+    position: fixed;
+    bottom: 4px;
+    color: hsl(214, 98%, 31%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-a {
+    color: hsl(214, 98%, 31%);
+}
