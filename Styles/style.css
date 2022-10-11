@@ -17,7 +17,7 @@ body {
     grid-auto-rows: 1fr 2rem;
     display: block;
     justify-content: center;
-    padding: 35px 0;
+    padding: 35px 1px;
 }
 
 .card {
@@ -47,7 +47,7 @@ body {
   
 .icon-background {
     background-color: hsla(178, 100%, 50%, 50%);
-    background-image: url(./images/icon-view.svg);
+    background-image: url(./icon-view.svg);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px;
