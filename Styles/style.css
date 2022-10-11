@@ -47,7 +47,7 @@ body {
   
 .icon-background {
     background-color: hsla(178, 100%, 50%, 50%);
-    background-image: url(./images/icon-view.svg);
+    background-image: url(./Images/icon-view.svg);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px;
